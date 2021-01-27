@@ -6,7 +6,8 @@
 ##Family status 
 Married, have a wonderfull son.
 
-## Education After graduating from high school, he entered IUCA.
+## Education 
+After graduating from high school, he entered IUCA.
   "International relationship" faculty
 
 ## Work experiences 
