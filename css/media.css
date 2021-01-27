@@ -1,0 +1,124 @@
+/*1200*/
+@media (max-width: 1200px) {
+    .container{
+        max-width: 990px;}
+    .hero_title {
+        font-size: 60px;}
+    .hero_desc {
+        font-size: 20px;}
+    .story_content{
+        padding: 66px;}
+}
+/*992*/
+@media (max-width: 992px) {
+    .container{
+        max-width: 850px;}
+.hero_title {
+    font-size: 43px;}
+.hero_desc {
+    font-size: 18px;}
+.col-4{
+    width: 33.333%;
+    flex-wrap: wrap;
+}
+.col-6{
+    width: 100%;}
+    .story_content{
+        padding: 56px;
+    }
+}
+
+/*768*/
+@media (max-width: 768px) {
+    .body {
+        padding: 0 15px;
+    }
+.hero_title {
+    font-size: 26px;}
+.hero_desc {
+    font-size: 13px;}
+.col-4{
+    width: 50%;}
+    .header_menu{
+        }
+    .story_content{
+        padding: 46px;
+    }
+}
+/*520*/
+@media (max-width: 520px) {
+    .hero_title {
+    font-size: 26px;}
+    .cap-title{
+        text-align: center;
+    }
+.d-flex{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-left: 70px;
+}
+
+.newsletter {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.footer_wrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.footer_company {
+    margin-bottom: 10px;
+}
+
+.footer_links {
+    margin-bottom: 10px;
+}
+
+.newsletter_form{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.newsletter_form_input {
+    margin-right: 50px;
+    margin-bottom: 10px;
+}
+
+.footer_links_group {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.footer_links {
+    margin-bottom: 120px;
+}
+
+.hero_desc {
+    font-size: 10px;}
+.col-4{
+    width: 100%;
+    padding: 10px 25px;
+}
+    .story_content{
+        padding: 36px;
+    }
+}
+/*480*/
+@media (max-width: 480px) {
+    .hero_title {
+        font-size: 20px;
+        text-align: center;
+    }
+    .hero_desc {
+        font-size: 9px;}
+    .story_content{
+        padding: 26px;
+    }
+}

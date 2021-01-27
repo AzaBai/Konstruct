@@ -1,0 +1,332 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+body{
+    font-family: "Open Sans", sans-serif;
+    color: #48555b;
+}
+.hero{
+    background: url('../images/bg.png') fixed no-repeat center/cover;
+    height: 100vh;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+.hero_title{
+    font-family: "BebasNeueBold", sans-serif;
+    font-size: 60px;
+    line-height: 70px;
+    letter-spacing: 5.70937px;
+}
+.hero_desc{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+
+
+}
+.logo{
+    padding-top: 41px;
+}
+.scroll_down{
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 15px;
+    letter-spacing: 3.7px;
+    text-transform: uppercase;
+    padding-bottom: 71px;
+}
+.header{
+padding: 21px 0;
+    border-bottom: 1px solid #e6e6e6;
+}
+.container{
+    max-width: 980px;
+    margin: 0 auto;
+}
+.flex-wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+.header_menu_item{
+    color: #485558;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    margin-left: 35px;
+    text-transform: uppercase;
+}
+.section_title{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 2.30625px;
+    text-align: center;
+    padding-bottom: 66px;
+    position: relative;
+}
+.section_title:before{
+    content: '';
+    position: absolute;
+    width: 50px;
+    height: 2px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    bottom: 60px;
+    border-bottom: 2px solid #00A4E5;
+}
+.service_title{
+    text-transform: uppercase;
+    font-size: 18px;
+    line-height: 26px;
+}
+.story{
+    padding: 57px 0;
+}
+.row{
+    display: flex;
+    margin: 0 -15px;
+
+}
+.story_heading{
+    font-size: 20px;
+    line-height: 27px;
+    letter-spacing: 0.1875px;
+    margin-bottom: 30px;
+    padding-right: 57px;
+}
+.story_heading span{
+    color: #00a4e5;
+}
+.story_info{
+    font-size: 13px;
+    line-height: 23px;
+    letter-spacing: 0.1875px;
+    padding-right: 43px;
+}
+.story_content{
+    padding-right: 66px;
+}
+.we_plan{
+    background: url("../images/we plan.png")no-repeat center/cover;
+}
+.we_manage{
+    background: url("../images/we manage.png")no-repeat center/cover;
+}
+.we_build{
+    background: url("../images/we build.png")no-repeat center/cover;
+}
+.about_col{
+    width: 33.333%;
+    padding: 0 15px;
+}
+.about_info_item{
+    height: 225px;
+}
+.about_info_item p {
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: 0.1875px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    padding: 15px 15px 0;
+}
+.row{
+   display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+}
+.col-6 {
+    width: 50%;
+    padding: 0 15px;
+}
+.col-8{
+    width: 66.666%;
+    padding: 0 15px;
+}
+.col-4{
+    width: 33.333%;
+    padding: 0 15px;
+}
+.cap-title{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 2.30625px;
+    color:#48555B;
+}
+.cap-desk{
+    font-size: 11px;
+    line-height: 19px;
+    letter-spacing: 0.2px;
+    color: #48555B;
+    padding-right: 58px;
+}
+.d-flex{
+    display: flex;
+    justify-content: space-between;
+}
+.btn{
+    min-width: 150px;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 18px;
+    text-align: center;
+    letter-spacing: 0.5px;
+    color: #FFFFFF;
+    padding: 11px 0;
+    background: #00A4E5;
+    border: none;
+    text-transform: uppercase;
+}
+.cap-content{
+    border: 1px solid #E6E6E6;
+    padding: 39px 23px;
+}
+.cap-heading{
+    margin: 25px 0 13px;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.426667px;
+    color: #48555B;
+}
+.cap-subtitle{
+    font-size: 13px;
+    line-height: 23px;
+    letter-spacing: 0.1875px;
+    color: #48555B;
+}
+.cap-item{
+    margin-bottom: 78px;
+}
+.get_in_touch{
+    background: url("../images/get_in_touch.png") no-repeat center/cover;
+    background-position-y: 2px;
+    height: 499px;
+    text-align: center;
+    padding: 120px 0 230px;
+}
+.get_in_touch_title{
+    letter-spacing: 0.15px;
+    font-size: 30px;
+    line-height: 36px;
+    margin-bottom: 35px;
+}
+.newsletter{
+    display: flex;
+    justify-content: center;
+    padding: 30px 0;
+    background-color: #171819;
+}
+.newsletter_title{
+    font-size: 22px;
+    line-height: 30px;
+    letter-spacing: 0.846154px;
+    color: #FFFFFF;
+}
+.newsletter_form{
+    display: flex;
+    margin-left: 70px;
+}
+.newsletter_form_input{
+    height: 40px;
+    border: 1px solid #979797;
+    margin-right: -1px;
+    width: 250px;
+    padding: 0 16px;
+}
+/*zb*/
+.footer{
+    background: #141A20;
+    color: #fff;
+    font-size: 11px;
+}
+.footer_wrap{
+    display: flex;
+    padding: 42px 0 40px;
+}
+.footer_links_group{
+    display: flex;
+}
+.footer_list{
+    list-style: none;
+    margin-right: 34px;
+}
+.footer_company{
+     width: 23%;
+     margin-right: 71px;
+ }
+ .footer_contacts{
+     width: 15%;
+     margin-right: 31px;
+     padding: 0 15px;
+ }
+ .footer_social{
+     display: flex;
+ }
+.footer_social_inner{
+    margin-right: 25px;
+    color: white;
+    font-size: 13px;
+}
+.footer_social_inner a:not(:last-child){
+    margin-right: 24px;
+}
+.footer_subtitle{
+    width: 71%;
+    margin-right: 71px;
+    margin-bottom: 18.84px;
+    font-weight: 400;
+}
+.footer_links{
+    height: 150px;
+}
+.footer_list_item:not(:last-child) {
+    margin-bottom: 5px;
+}
+.footer_contacts_info{
+    display: flex;
+    align-items: center;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 16px;
+}
+.footer-flex{
+    display: flex;
+}
+.footer_subtitle{
+    color: #FFFFFF;
+    display: flex;
+    align-items: flex-end;
+    text-align: center;
+    letter-spacing: 0.846154px;
+    line-height: 19px;
+    margin-bottom: 18.84px;
+}
+svg{
+    margin-bottom: 16.67px;
+}
+.copyright{
+    text-align: center;
+    padding: 22px 0;
+    background-color: #171819;
+    color: #FFFFFF;
+    font-weight:400;
+    font-size: 11px;
+    line-height: 15px;
+}
+
