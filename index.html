@@ -41,6 +41,11 @@
             <a href="#" class="header_menu_item">Work</a>
             <a href="#" class="header_menu_item">Contact</a>
         </nav>
+        <div class="menu-btn">
+
+            <span></span>
+        </div>
+
     </div>
 
 </header>
@@ -84,7 +89,7 @@
     <div class="container">
         <div class="row cap-item">
             <div class="col-4">
-                <h2 class="cap-title">OIUR CAPABILITIES</h2>
+                <h2 class="cap-title">OUR CAPABILITIES</h2>
             </div>
             <div class="col-8 d-flex">
                 <p class="cap-desk"> Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
@@ -95,7 +100,7 @@
         </div>
         <!-- kartinki, tri kolonki-->
         <div class="row">
-            <div class="col-4">
+            <div class="col-4 edited-col">
                 <div class="cap-content ">
                     <img src="./images/Bitmap.png" alt="">
                     <h3 class="cap-heading">PROJECT AND CONSTRUCTION MANAGEMENT</h3>
@@ -104,7 +109,7 @@
                         ut laoreet dolore magna aliquam erat.</p>
                 </div>
             </div>
-            <div class="col-4">
+            <div class="col-4 edited-col">
                 <div class="cap-content">
                     <img src="./images/Bitmap%20(1).png" alt="">
                     <h3 class="cap-heading">STRUCTURE AUDIT AND MAINTENANCE</h3>
@@ -113,7 +118,7 @@
                         ut laoreet dolore magna aliquam erat.</p>
                 </div>
             </div>
-            <div class="col-4">
+            <div class="col-4 edited-col">
                 <div class="cap-content">
                     <img src="./images/Bitmap%20(2).png" alt="">
                     <h3 class="cap-heading">FACTORY CONSTRUCTION AND MODELING</h3>
@@ -126,15 +131,19 @@
     </div>
 </section>
 <section class="get_in_touch">
-    <h2 class="get_in_touch_title">Want to build <br> something amazing?</h2>
-    <button class="btn"> Get in touch</button>
+    <div class="container">
+        <h2 class="get_in_touch_title">Want to build <br> something amazing?</h2>
+        <button class="btn"> Get in touch</button>
+    </div>
 </section>
 <section class="newsletter">
-    <h2 class="newsletter_title">Newsletter Signup</h2>
-    <form class="newsletter_form">
-        <input class="newsletter_form_input" placeholder="test@youremail.com">
-        <button class="btn">signup</button>
-    </form>
+    <div class="container newsletter_container">
+        <h2 class="newsletter_title">Newsletter Signup</h2>
+        <form class="newsletter_form">
+            <input class="newsletter_form_input" placeholder="test@youremail.com">
+            <button class="btn">signup</button>
+        </form>
+    </div>
 </section>
 <footer class="footer">
     <!-- verhnya 4ast-->
@@ -149,11 +158,9 @@
                     <path fill-rule="evenodd" clip-rule="evenodd"
                           d="M82.0255 11.4851L90.3892 1.03052V21.9396L82.0255 11.4851Z" fill="#00A4E5"/>
                 </svg>
-                <p class="footer_content">Lorem ipsum dolor sit amet, consectetuer <br> adipiscing elit, sed diam
-                    nonummy nibh
-                    <br>
-                    euismod tincidunt ut
-                    laoreet dolore <br> magna aliquam erat.</p>
+                <p class="footer_content">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
+                    nonummy nibh euismod tincidunt ut
+                    laoreet dolore magna aliquam erat.</p>
             </div>
             <div class="footer_links">
                 <h5 class="footer_subtitle">LINKS</h5>
@@ -180,7 +187,7 @@
             </div>
             <div class="footer_contacts">
                 <h5 class="footer_subtitle">CONTACT US</h5>
-                <p class="footer_contacts_info">213 Baker Street Oriel City Kounty7000 KNW,Kountry Name </p>
+                <p class="footer_contacts_info">213 Baker Street Oriel City Kounty <br>7000 KNW,Kountry Name </p>
                 <br>
                 <p class="footer_contacts_info">+23 994 233 4022</p><br>
                 <p class="footer_contacts_info">info@konstruct.com</p>
@@ -196,5 +203,6 @@
         <h5 style="">© 2017 Konstruct Inc. Designed by Jane Kathryn Teo></h5>
     </div>
 </footer>
+<script src="./js/script.js"></script>
 </body>
 </html>

@@ -6,28 +6,37 @@
         font-size: 60px;}
     .hero_desc {
         font-size: 20px;}
-    .story_content{
-        padding: 66px;}
 }
 /*992*/
 @media (max-width: 992px) {
-    .container{
-        max-width: 850px;}
-.hero_title {
-    font-size: 43px;}
-.hero_desc {
-    font-size: 18px;}
-.col-4{
-    width: 33.333%;
-    flex-wrap: wrap;
-}
-.col-6{
-    width: 100%;}
-    .story_content{
-        padding: 56px;
+    .container {
+        max-width: 850px;
     }
-}
 
+    .hero_title {
+        font-size: 43px;
+    }
+
+    .hero_desc {
+        font-size: 18px;
+    }
+
+    .col-4 {
+        width: 33.333%;
+        flex-wrap: wrap;
+    }
+
+    .col-6 {
+        width: 100%;
+        padding: 0 15px
+    }
+
+    .edited-col {
+        height: 100%;
+    }
+    .story_info{
+        padding: 0 0 30px;}
+}
 /*768*/
 @media (max-width: 768px) {
     .body {
@@ -38,11 +47,82 @@
 .hero_desc {
     font-size: 13px;}
 .col-4{
-    width: 50%;}
+    width: 100%;}
+
+    /**/
     .header_menu{
-        }
-    .story_content{
-        padding: 46px;
+        display: flex;
+        position: fixed;
+        top: 0;
+        left: -100%;
+        background-color: #222;
+        width: 50%;
+        height: 100%;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        z-index: 1;
+        transition: .6s;
+    }
+
+    .header_menu.active{
+        left: 0
+    }
+    .menu-btn {
+        display: flex;
+    }
+    .menu-btn.active{
+        position: fixed;
+        top: 40px;
+        right: 40px;
+    }
+
+    .menu-btn.active span:before{
+        transform: rotate(45deg);
+        top: 0;
+    }
+    .menu-btn.active span:after{
+        transform: rotate(-45deg);
+        top: 0;
+    }
+    .menu-btn.active span{
+        background-color: transparent;
+    }
+    .edited-col {
+        margin-bottom:10px;
+    }
+    .about_info_item {
+        margin-bottom:10px;
+
+    }
+    .d-flex {
+        flex-direction: column;
+    }
+    .cap-desk {
+        margin: 10px 0;
+    }
+    .newsletter_container{
+        display: flex;
+        flex-direction: column;
+    }
+    .newsletter_title{
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .newsletter_form {
+        margin-left: unset;
+        justify-content: center;
+    }
+    .footer_wrap {
+        display: flex;
+        flex-direction: column;
+    }
+    .footer_company {
+        width: unset;
+    }
+    .footer_contacts {
+        width: unset;
+        padding: 0;
     }
 }
 /*520*/
@@ -52,13 +132,21 @@
     .cap-title{
         text-align: center;
     }
+
+    .cap-desk {
+        padding-right: 0;
+        margin-bottom: 20px;
+    }
 .d-flex{
     display: flex;
     flex-direction: column;
     text-align: center;
-    margin-left: 70px;
+    margin-left: 56px;
 }
-
+.newsletter_title {
+    text-align: center;
+    margin-bottom: 20px;
+}
 .newsletter {
     display: flex;
     align-items: center;
@@ -67,13 +155,17 @@
 }
 .footer_wrap {
     display: flex;
-    align-items: center;
     justify-content: center;
     flex-direction: column;
 }
 
+.footer_content{
+    width: 100%;
+}
+
 .footer_company {
     margin-bottom: 10px;
+    width: 100%;
 }
 
 .footer_links {
@@ -85,19 +177,23 @@
     align-items: center;
     flex-direction: column;
     justify-content: center;
+    margin-left: 0;
 }
 .newsletter_form_input {
-    margin-right: 50px;
     margin-bottom: 10px;
 }
 
 .footer_links_group {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+
+}
+
+.footer_contacts {
+    width: 100%;
+    padding: 0;
 }
 .footer_links {
-    margin-bottom: 120px;
+    margin-bottom: 20px;
 }
 
 .hero_desc {
@@ -108,6 +204,18 @@
 }
     .story_content{
         padding: 36px;
+    }
+    .cap-item {
+        display: flex;
+        justify-content: center;
+
+    }
+    .d-flex {
+        margin-left: 0;
+    }
+    .hero_title {
+        padding: 0 15px;
+        letter-spacing: 3.70937px;
     }
 }
 /*480*/
@@ -120,5 +228,8 @@
         font-size: 9px;}
     .story_content{
         padding: 26px;
+    }
+    .footer_social {
+        padding: 10px 0;
     }
 }
